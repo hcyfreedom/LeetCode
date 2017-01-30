@@ -1,8 +1,6 @@
 # LeetCode
 <style>
-p{
-font-size:15px;
-}
+
 </style>
 <h2>twoSum.js<br>
 <p>给定一个目标值，总是可以从数组中找到两个数相加而得。</p><br>
