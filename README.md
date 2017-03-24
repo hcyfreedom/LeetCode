@@ -1,6 +1,6 @@
 # LeetCode
 <style>
-
+p{font-size:15px;}
 </style>
 <h2>twoSum.js<br>
 <p>给定一个目标值，总是可以从数组中找到两个数相加而得。</p><br>
@@ -19,3 +19,7 @@
 <h2>FindInTwodimArray.js<br>
 <p>输入一个二维数组，每一行从左到右递增，没一列从上到下递增；输入一个值，查找，这个值是否在这个二维数组里。</p><br>
 <p>思路就是，二维数组的长度就是有多少行。左下角元素，与目标值相比较。如果目标值小于左下角元素就往上，大于就往右。相等就返回TRUE。
+
+<h2>printListFromTailToHead<br>
+<p>从头到尾打印链表元素<br>
+<p>可以用unshift——将一个或多个元素加入数组头部。
