@@ -25,3 +25,42 @@ var arr=[[1,2,8,9],[2,4,9,12],[4,7,10,13],[6,8,11,15]];
 
 console.log(arr);
 findTarget(arr,5);
+
+//
+// function find(ary,num) {
+//     var rstart = 0;//行首
+//     var rend = ary.length;//行尾
+//
+//     var cstart = 0;//列首
+//     var cend = ary[0].length;//列尾
+//
+//     var rmid = 0;//行中点
+//     var cmid = 0;//列中点
+//
+//     function recusion() {
+//         rmid = Math.floor(rstart + rend);
+//         cmid = Math.floor(cstart + cend);
+//
+//
+//         if(num == ary[rmid][cmid]){
+//             console.log(rmid + '，' +cmid)
+//             return true;
+//         }else if (num > ary[rmid][cmid]){
+//             rstart = rmid;
+//             cstart = cmid;
+//         }else {
+//             rend = rmid;
+//             cend = cmid;
+//         }
+//
+//         if (rstart === rend && cstart === cend){
+//             console.log("错了")
+//             return false
+//         }
+//
+//         recusion();
+//     }
+// }
+//
+// var arr=[[1,2,8,9],[2,4,9,12],[4,7,10,13],[6,8,11,15]];
+// find(arr,5);
